@@ -1,4 +1,4 @@
-# ImageMoments
+# Higher Order Image Moments
 Accurate calculation of higher order image moments with O(N+M) multiplications for grayscale images. 
 
 ### Extending The Discrete Radon Transformation
