@@ -43,8 +43,8 @@ void pre_compute_power_arrays(const Size s) {
         d2[k] = k2;
         d3[k] = k2 * static_cast<double>(k);
         d4[k] = k2 * k2;
-        a3[k] = pow(static_cast<double>(k - width + 1), 3);
-        a4[k] = pow(static_cast<double>(k - width + 1), 4);
+        a3[k] = pow(static_cast<double>(k - height + 1), 3);
+        a4[k] = pow(static_cast<double>(k - height + 1), 4);
     }
 
     for (int k = 0; k < width + height * 2; ++k)
